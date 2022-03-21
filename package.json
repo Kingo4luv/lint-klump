@@ -26,13 +26,15 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
+      "plugin:vue/recommended",
       "eslint:recommended"
     ],
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "indent": ["error", "tab"]
+    }
   },
   "browserslist": [
     "> 1%",
